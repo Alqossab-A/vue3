@@ -1,3 +1,10 @@
+<template>
+    <header>
+        <h1>{{ title }}</h1>
+        <Button text="Add Task" color="green"/>
+    </header>
+</template>
+
 <script lang="ts">
     import Button from './Button.vue'
 
@@ -11,13 +18,6 @@
         }
     };
 </script>
-
-<template>
-    <header>
-        <h1>{{ title }}</h1>
-        <Button text="Add Task" color="green"/>
-    </header>
-</template>
 
 <style scoped>
     header {

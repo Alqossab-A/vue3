@@ -1,3 +1,7 @@
+<template>
+    <button @click="onClick()" :style="{ background: color }" class="btn">{{ text }}</button>
+</template>
+
 <script lang="ts">
     export default {
         name: 'Button',
@@ -12,8 +16,4 @@
         }
     }; 
 </script>
-
-<template>
-    <button @click="onClick()" :style="{ background: color }" class="btn">{{ text }}</button>
-</template>
 
